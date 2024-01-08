@@ -67,7 +67,7 @@
 /* Midnight-party */
 
 .midnight-party{
-    margin: 20px 140px;
+    margin: 70px 140px;
     background: linear-gradient(90deg, black 0.8%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     display: flex;
     justify-content: space-around;
@@ -111,6 +111,53 @@
     margin: 68px 150px 0 0;
 }
 
+/* party-schedule */
+
+.party-schedule{
+    margin: 70px 140px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+.party-time-and-date{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 100px;
+    margin-bottom: 48px;
+}
+.party-time{
+    margin-top: 100px;
+}
+#schedule{
+    color: #F00;
+}
+
+.join-btn{
+    /* display: inline-flex; */
+    padding: 16px 32px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.join-btn:hover{
+    background: white;
+    color:  #F00;
+    border: 2px solid ;
+}
 /* Portfolio */
 
 .portfolio{
