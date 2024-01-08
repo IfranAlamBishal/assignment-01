@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     max-width: 1600px;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif; */
 }
 /* Header Part */
 .banner{
@@ -110,6 +110,46 @@
 .party-img{
     margin: 68px 150px 0 0;
 }
+
+/* Portfolio */
+
+.portfolio{
+    margin: 20px 140px;
+}
+.best-gifts{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+.portfolio-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+/* #and{
+    text-align: center;
+} */
+.portfolio-info{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 890px;
+    margin-bottom: 36px;
+}
+.portfolio-img-container{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio-img{
+    margin: 12px;
+}
+
 /* Newsletter */
 .newsletter{
     background: rgba(255, 0, 0, 0.05);
@@ -208,6 +248,12 @@
     font-size: 24px;
     font-weight: 500;
     margin: 120px 200px 0px 140px;
+}
+.contacnt-items{
+    display: flex;
+}
+.contacnt-items img{
+    margin-right: 16px;
 }
 footer hr{
     margin: 50px 140px;
