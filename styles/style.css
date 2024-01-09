@@ -325,6 +325,10 @@
 }
 .portfolio-img{
     margin: 12px;
+    cursor: pointer;
+}
+.portfolio-img:hover{
+    opacity: .5;
 }
 
 /* Newsletter */
@@ -365,20 +369,25 @@
 .subscribe-form{
     margin-top: 48px;
     margin-left: 336px;
-    width: 650px;
+    width: 660px;
     max-width: 100%;
     position: relative;
 }
 #email-form{
     border: none;
     border-radius: 50px;
-    width: 100%;
+    width: 90%;
+    padding-left: 20px;
     height: 72px;
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    
+}
+#email-form:focus{
+    /* padding-left: 10px; */
+    color: #F00;
+    outline: 0;
 }
 .subscribe-btn{
     border: none;
@@ -468,6 +477,6 @@ footer hr{
 .rights button:hover{
     background: rgb(255, 255, 255);
     color: #070211;
-    padding: 5px;
+    padding: 2px;
     border: 3px solid;
 }
